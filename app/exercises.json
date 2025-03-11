@@ -1,0 +1,60 @@
+{
+  "exercises": [
+{
+  "id": "0",
+  "name": "Squat",
+  "weight": "100",
+  "repetitions": "8",
+  "sets": "3"
+},
+{
+"id": "1",
+"name": "Deadlift",
+"weight": "100",
+"repetitions": "8",
+"sets": "3"
+},
+{
+"id": "2",
+"name": "Barbell Curls",
+"weight": "50",
+"repetitions": "12",
+"sets": "3"
+},
+{
+"id": "3",
+"name": "Jumping Jacks",
+"weight": "n/a",
+"repetitions": "20",
+"sets": "3"
+},
+{
+"id": "4",
+"name": "Sit Ups",
+"weight": "n/a",
+"repetitions": "15",
+"sets": "3"
+},
+{
+"id": "5",
+"name": "Push Ups",
+"weight": "n/a",
+"repetitions": "20",
+"sets": "3"
+},
+{
+"id": "6",
+"name": "Bench Press",
+"weight": "110",
+"repetitions": "8",
+"sets": "3"
+},
+{
+"id": "6",
+"name": "Leg Press",
+"weight": "115",
+"repetitions": "12",
+"sets": "3"
+}
+    ]
+}

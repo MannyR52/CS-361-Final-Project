@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Random Exercise Generator</h1>
+        <p>Press the button to generate a random exercise to add a little variety to your routine!</p>
+        <div class="content-section text-center">
+            <form method="POST" action="">
+                <div class="form-group">
+                <input type="Submit" id="script" name="Random Exercise" value="Random Exercise!">
+                </div>
+            {% if exer %}
+                <p>{{exer}}</p>
+            {% endif %}
+            </form>
+        </div>
+{% endblock content %}

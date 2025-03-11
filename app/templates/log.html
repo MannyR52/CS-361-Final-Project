@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for workout in workout %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ workout.name }}</a>
+              <small class="text-muted">{{ workout.date.strftime('%Y-%m-%d') }}</small>
+            </div>
+            <h4><a class="article-title" href="{{ url_for('workouts.workout', workout_id=workout.id) }}">Workout Details:</a></h4>
+            <p class="article-content">Name: {{ workout.name }}</p>
+            <p class="article-content">Weight(lb): {{ workout.weight }}</p>
+            <p class="article-content">Reps: {{ workout.repetitions }}</p>
+            <p class="article-content">Sets: {{ workout.sets }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
